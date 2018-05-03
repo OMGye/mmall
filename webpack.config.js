@@ -40,7 +40,7 @@ var config = {
     },
     output: {
         path: './dist',
-        publicPath : '/dist',
+        publicPath :  WEBPACK_ENV === 'online' ? '//www.upupgogogo.cn/mmall-fe/dist/' : '/dist/',,
         filename: 'js/[name].js'
     },
     externals : {
