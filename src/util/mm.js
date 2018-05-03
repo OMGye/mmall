@@ -1,12 +1,12 @@
 /*
 * @Author: Rosen
 * @Date:   2017-05-15 15:26:38
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-05-21 14:58:37
+* @Last Modified by:   96173
+* @Last Modified time: 2017-10-20 15:37:41
 */
 
 'use strict';
-var Hogan = require('hogan');
+var Hogan = require('hogan.js');
 var conf = {
     serverHost : ''
 };
@@ -81,7 +81,7 @@ var _mm = {
     // 统一登录处理
     doLogin : function(){
         window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
-    },
+    }, 
     goHome : function(){
         window.location.href = './index.html';
     }

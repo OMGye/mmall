@@ -1,8 +1,8 @@
 /*
 * @Author: mmall
 * @Date:   2017-05-27 17:57:49
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-05-28 19:48:16
+* @Last Modified by:   hanxiao
+* @Last Modified time: 2018-01-24 17:08:11
 */
 
 'use strict';
@@ -35,6 +35,7 @@ var page = {
         var _this = this;
         // 排序的点击事件
         $('.sort-item').click(function(){
+            // 把$this缓存起来，只取一次（每次使用this，会把this取出来进行一个jquery的封装）
             var $this = $(this);
             _this.data.listParam.pageNum = 1;
             // 点击默认排序
@@ -89,7 +90,9 @@ var page = {
                 prePage         : res.prePage,
                 hasNextPage     : res.hasNextPage,
                 nextPage        : res.nextPage,
+                // 当前页码
                 pageNum         : res.pageNum,
+                // 总页数
                 pages           : res.pages
             });
         }, function(errMsg){

@@ -1,8 +1,8 @@
 /*
 * @Author: Rosen
 * @Date:   2017-05-28 11:58:08
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-05-28 15:36:16
+* @Last Modified by:   96173
+* @Last Modified time: 2017-10-24 23:09:48
 */
 
 'use strict';
@@ -18,7 +18,7 @@ var Pagination = function(){
         pageRange       : 3,
         onSelectPage    : null
     };
-    // 事件的处理
+    // 事件的处理（先New,如果使用事件绑定，无效）
     $(document).on('click', '.pg-item', function(){
         var $this = $(this);
         // 对于active和disabled按钮点击，不做处理

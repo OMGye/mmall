@@ -1,8 +1,8 @@
 /*
 * @Author: Rosen
 * @Date:   2017-05-28 11:58:18
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-05-28 15:38:37
+* @Last Modified by:   96173
+* @Last Modified time: 2017-10-24 23:12:20
 */
 .pg-content{
     text-align: center;
@@ -17,6 +17,7 @@
     border: 1px solid #ccc;
     background: #eee;
     cursor: pointer;
+    // 清除选择文本
     -moz-user-select : none;
     -webkit-user-select : none;
     -ms-user-select : none;
