@@ -100,7 +100,9 @@ var config = {
         new HtmlWebpackPlugin(getHtmlConfig('user-pass-update', '修改密码')),
         new HtmlWebpackPlugin(getHtmlConfig('result', '操作结果')),
         new HtmlWebpackPlugin(getHtmlConfig('order-confirm', '订单确认页')),
+        new HtmlWebpackPlugin(getHtmlConfig('order-detail', '订单确认页')),
         new HtmlWebpackPlugin(getHtmlConfig('order-list', '订单列表')),
+        new HtmlWebpackPlugin(getHtmlConfig('payment', '订单列表')),
         new HtmlWebpackPlugin(getHtmlConfig('about', '关于')),
     ]
 };
