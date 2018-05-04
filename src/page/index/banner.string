@@ -1,27 +1,27 @@
 <div class="banner">
     <ul>
         <li>
-            <a href="./list.html?categoryId=100021" target="_blank">
+            <a href="./list.html?categoryId=100001" target="_blank">
                 <img class="banner-img" src="../../image/banner/1.jpg" />
             </a>
         </li>
         <li>
-            <a href="./list.html?categoryId=100030" target="_blank">
+            <a href="./list.html?categoryId=100002" target="_blank">
                 <img class="banner-img" src="../../image/banner/2.jpg" />
             </a>
         </li>
         <li>
-            <a href="./list.html?categoryId=100016" target="_blank">
+            <a href="./list.html?categoryId=100003" target="_blank">
                 <img class="banner-img" src="../../image/banner/3.jpg" />
             </a>
         </li>
         <li>
-            <a href="./list.html?categoryId=100001" target="_blank">
+            <a href="./list.html?categoryId=100004" target="_blank">
                 <img class="banner-img" src="../../image/banner/4.jpg" />
             </a>
         </li>
         <li>
-            <a href="./list.html?categoryId=100021" target="_blank">
+            <a href="./list.html?categoryId=100005" target="_blank">
                 <img class="banner-img" src="../../image/banner/5.jpg" />
             </a>
         </li>
